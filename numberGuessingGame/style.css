@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  margin: 0px;
+  background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+}
+.numberGuess h2 {
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+.numberGuess {
+  max-width: 100%;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.411);
+  border-radius: 3px;
+  padding: 25px;
+  margin: 100px auto;
+  margin-left: 75px;
+  margin-right: 75px;
+}
+.numberGuess :hover {
+  opacity: 0.3;
+  transition: all 0.8s ease;
+}
+.numberGuess button {
+  height: 35px;
+  padding: 5px 10px;
+}
+.numberGuess input {
+  width: 40%;
+  border: none;
+  outline: none;
+  border: 1px solid #ccc;
+  height: 35px;
+  border-radius: 3px;
+  padding-left: 15px;
+}
+.numberGuess span .yazi {
+  font-size: 20px;
+}
+.numberGuess input:hover {
+  opacity: 0.6;
+  transition: all 0.8s ease;
+}
+.numberGuess p {
+  margin-top: 16px;
+  font-size: 16px;
+}
+.input button {
+  padding: 20px;
+  text-align: center;
+}
+.rules {
+    background: rgba(0, 0, 0, 0.411);
+  max-width: 50%;
+margin: auto;
+  text-align: center;
+  padding: 25px;
+  font-size: 17px;
+}
